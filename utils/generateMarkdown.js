@@ -33,6 +33,7 @@ function renderLicenseLink(license) {
   } else if (license === "ISC") {
     licenseLink = "https://choosealicense.com/licenses/isc/";
   }
+  return licenseLink;
 }
 
 // TODO: Create a function that returns the license section of README
@@ -57,6 +58,7 @@ function generateMarkdown(data) {
 
   # Description
   ${data.description}
+
   # Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -76,7 +78,7 @@ function generateMarkdown(data) {
   This project is licensed under the ${data.license} license.
   ## ${renderLicenseSection(data.license)} ${renderLicenseBadge(data.license)}
   ### ${renderLicenseLink(data.license)}
-  # Feedback
+  # Feedback & QA
   If you have any questions or feedback regarding the repo please open an issue
 
 `;
