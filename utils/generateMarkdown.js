@@ -55,7 +55,7 @@ function generateMarkdown(data) {
 
   ## ${renderLicenseSection(data.license)} ${renderLicenseBadge(data.license)}
   ### ${renderLicenseLink(data.license)}
-  
+
   # Description
   ${data.description}
   # Table of Contents
@@ -75,7 +75,8 @@ function generateMarkdown(data) {
   Contributing is ${data.contribute}
   # License
   This project is licensed under the ${data.license} license.
-  ![Github license]
+  ## ${renderLicenseSection(data.license)} ${renderLicenseBadge(data.license)}
+  ### ${renderLicenseLink(data.license)}
   # Feedback
   If you have any questions or feedback regarding the repo please open an issue
 

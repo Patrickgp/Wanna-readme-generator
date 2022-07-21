@@ -32,7 +32,7 @@ const questions = [
   {
     type: "input",
     name: "installation",
-    message: "Provide instructions on installation: ",
+    message: "Provide instructions on installation/dependencies: ",
   },
   {
     type: "input",
