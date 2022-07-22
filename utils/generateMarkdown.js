@@ -66,6 +66,7 @@ function generateMarkdown(data) {
   * [License](#license)
   * [Feedback & QA](#questions)
   * [Tests](*test)
+  
   # Installation
   The following necessary dependencies must be installed to successfully run the application: ${
     data.installation
@@ -82,6 +83,9 @@ function generateMarkdown(data) {
   If you have any questions or feedback regarding the repo, ${data.question}.
   Github link: https://github.com/${data.user}.
   Email me: ${data.email}
+
+  # Code
+  ${data.test}
 
 `;
 }
