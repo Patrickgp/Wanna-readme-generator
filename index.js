@@ -70,7 +70,7 @@ const questions = [
     type: "list",
     name: "question",
     message: "How would you like users to ask questions?",
-    choices: ["open an issue.", "email me", "kick rocks", "None"],
+    choices: ["open an issue", "email me", "kick rocks", "None"],
   },
 ];
 
