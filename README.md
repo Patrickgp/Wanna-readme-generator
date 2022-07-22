@@ -1,11 +1,11 @@
 
   # Wanna README Generator
 
-  ## License: GNU [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-  ### https://choosealicense.com/licenses/gpl-3.0/
+  ##  
 
   # Description
   This program was designed to take input from users through prompts in the terminal and dynamically create a README.md file for their repo.
+  ### Tech used in program: HTML,CSS,JavaScript,Node.js
 
   # Table of Contents
   * [Installation](#installation)
@@ -17,13 +17,14 @@
   # Installation
   The following necessary dependencies must be installed to successfully run the application: Inquirer 8.2.4
   # Usage
-  In order to use this app, the user will answer prompts in the terminal which will dynamically generate a professional README document for their repo.
+  In order to use this app, the user will answer prompts in the terminal which will dynamically generate a professional README file for their repo
   # Contributing
-  Contributing is closed. No contributions at this time.
+  Contributing is No
   # License
-  This project is licensed under the GNU license.
-  ## License: GNU [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-  ### https://choosealicense.com/licenses/gpl-3.0/
+  This project is licensed under the None license.
+  ##  
+  ### 
   # Feedback & QA
-  If you have any questions or feedback regarding the repo please open an issue
+  If you have any questions or feedback regarding the repo, .
+  Patrick Poopathi's Github repo link: https://github.com/patrickgp
 

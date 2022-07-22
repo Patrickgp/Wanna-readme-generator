@@ -21,13 +21,24 @@ const questions = [
   },
   {
     type: "input",
-    name: "Username",
+    name: "user",
     message: "Provide your Github username: ",
+  },
+  {
+    type: "input",
+    name: "email",
+    message: "Provide an email address for questions/feedback: ",
   },
   {
     type: "input",
     name: "description",
     message: "Provide a detailed description of your project: ",
+  },
+  {
+    type: "checkbox",
+    name: "language",
+    message: "What programming tech did you use?",
+    choices: ["HTML", "CSS", "JavaScript", "Node.js", "Bootstrap"],
   },
   {
     type: "input",
@@ -56,10 +67,10 @@ const questions = [
     message: "Would you like to write tests for your application?",
   },
   {
-    type: "input",
-    name: "questions",
-    message:
-      "Please provide a way for users to ask questions or give feedback: ",
+    type: "list",
+    name: "question",
+    message: "How would you like users to ask questions?",
+    choices: ["open an issue.", "email me", "kick rocks", "None"],
   },
 ];
 

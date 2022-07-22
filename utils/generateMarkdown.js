@@ -32,7 +32,7 @@ function renderLicenseLink(license) {
     licenseLink = "https://choosealicense.com/licenses/gpl-3.0/";
   } else if (license === "ISC") {
     licenseLink = "https://choosealicense.com/licenses/isc/";
-  }
+  } else license === "None";
   return licenseLink;
 }
 
@@ -48,6 +48,20 @@ function renderLicenseSection(license) {
   return licenseSection;
 }
 
+// Function to handle question response
+function contactOwner(question) {
+  let contactme = "";
+  if (question === "open an issue") {
+    contactme =
+      "https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue";
+  } else if (question === "email me") {
+    contactme = email;
+  } else if (question === "kick rocks") {
+    contactme = "they can kick rocks";
+  } else question === "None";
+  return contactme;
+}
+
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
@@ -57,6 +71,7 @@ function generateMarkdown(data) {
 
   # Description
   ${data.description}
+  ### Tech used in program: ${data.language}
 
   # Table of Contents
   * [Installation](#installation)
@@ -78,7 +93,10 @@ function generateMarkdown(data) {
   ## ${renderLicenseSection(data.license)} ${renderLicenseBadge(data.license)}
   ### ${renderLicenseLink(data.license)}
   # Feedback & QA
-  If you have any questions or feedback regarding the repo please open an issue
+  If you have any questions or feedback regarding the repo, ${contactOwner(
+    data.question
+  )}.
+  Patrick Poopathi's Github repo link: https://github.com/${data.user}
 
 `;
 }
