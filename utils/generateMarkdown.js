@@ -65,7 +65,7 @@ function generateMarkdown(data) {
   * [Contributing](#contributing)
   * [License](#license)
   * [Feedback & QA](#questions)
-  * [Test](*test)
+  * [Test](#test)
   
   # Installation
   The following necessary dependencies must be installed to successfully run the application: ${
