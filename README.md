@@ -1,11 +1,11 @@
 
-  # Wanna README Generator
+  # Portfolio Generator
 
-  ## License: Apache 2.0 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  ##  
 
   # Description
-  This application was designed to take input from users through prompts in the terminal and dynamically create a README.md file for their repo.
-  ### Tech used in program: JavaScript,Node.js
+  The user can answer prompts in their terminal and this application will take their responses and create a basic portfolio for them.
+  ### Tech used in program: HTML,CSS,JavaScript,Node.js,Bootstrap
 
   # Table of Contents
   * [Installation](#installation)
@@ -18,18 +18,18 @@
   # Installation
   The following necessary dependencies must be installed to successfully run the application: Inquirer 8.2.4
   # Usage
-  In order to use this app, the user will answer prompts in the terminal which will dynamically generate a professional README file for their repo.
+  In order to use this app, the user will need to clone this repo and run the application on their local machine. This application runs from a machine and not a browser.
   # Contributing
   Contributing is N/A
   # License
-  This project is licensed under the Apache 2.0 license.
-  ## License: Apache 2.0 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-  ### https://www.apache.org/licenses/LICENSE-2.0
+  This project is licensed under the None license.
+  ##  
+  ### 
   # Feedback & QA
   If you have any questions or feedback regarding the repo, open an issue.
   Github link: https://github.com/patrickgp.
   Email me: patrickgp1992@hotmail.com
 
   # Code
-  No
+  No examples.
 

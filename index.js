@@ -59,7 +59,7 @@ const questions = [
   {
     type: "input",
     name: "contribute",
-    message: "Are you allowing others to contribute?",
+    message: "How can other users contribute to this project?",
   },
   {
     type: "list",

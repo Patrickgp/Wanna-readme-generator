@@ -65,7 +65,7 @@ function generateMarkdown(data) {
   * [Contributing](#contributing)
   * [License](#license)
   * [Feedback & QA](#questions)
-  * [Tests](*test)
+  * [Test](*test)
   
   # Installation
   The following necessary dependencies must be installed to successfully run the application: ${
@@ -73,18 +73,21 @@ function generateMarkdown(data) {
   }
   # Usage
   In order to use this app, ${data.usage}
+
   # Contributing
-  Contributing is ${data.contribute}
+  ${data.contribute}
+
   # License
   This project is licensed under the ${data.license} license.
   ## ${renderLicenseSection(data.license)} ${renderLicenseBadge(data.license)}
   ### ${renderLicenseLink(data.license)}
+  
   # Feedback & QA
   If you have any questions or feedback regarding the repo, ${data.question}.
   Github link: https://github.com/${data.user}.
   Email me: ${data.email}
 
-  # Code
+  # Test
   ${data.test}
 
 `;
