@@ -5,6 +5,10 @@
 
   # Description
   This program will allow users to answer prompts on their local machine's terminal and dynamically generate a professional README for their repository. Using Node.js, Inquirer, and FS we are able to take terminal prompts and return the user's input to stored variables. We then create a README.md file and write the variables into the document.
+  
+  # Link to Walkthrough Video
+  https://drive.google.com/file/d/1d2I1AWx3WAhDyrLaV6msjhYXxG7ZUi_1/view
+  
   ### Tech used in program: JavaScript,Node.js
 
   # Table of Contents
